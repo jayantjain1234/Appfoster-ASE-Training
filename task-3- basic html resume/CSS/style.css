@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color:white;
+    color: black;
+}
+
+.headClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    height: 100%;
+}
+
+.headClass .box1{
+    width: 328px;
+    height: 250px;
+    margin: 0px 120px;
+    background-color: #eae6e6;
+    padding: 15px;
+}
+
+.box1 img{
+    width: 300px;
+    height: 248px;
+    border: 6px solid white;
+    text-align: center;
+    margin: 0px 5px;
+    /* border-radius: 50px; */
+}
+
+.box1 .box1Star a{
+    color: #5f5f5f;
+}
+.Address{
+    display: flex; 
+}
+.Address p{
+    font-size: 17px;
+    margin-left: 7px;
+}
+.contact{
+    display: flex;
+}
+.contact p{
+    font-size: 17px;
+    margin-left: 7px;
+}
+.box1 h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box1 h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box1 .box1Star{
+    margin-top: 7px;
+}
+
+
+/* Second Part */
+.FirstheadClass{
+    padding: 12px 0px;
+    width: 63%;
+    margin: auto;
+    display: block;
+    background-color: #eae6e6;
+}
+#item1 p{
+    font-size: 16px;
+}
+.itemClass2 p{
+    font-size: 16px;
+}
+.headSecondClass{
+    padding: 0px 50px;
+}
+
+.headSecondClass #item1{
+    display: flex;
+    width: 106%;
+}
+
+.headSecondClass #item1 h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.headSecondClass #item1 p{
+    /* font-family: cursive; */
+    /* font-weight: bold; */
+    margin: 0px 20px;
+}
+
+.headSecondClass1{
+    margin-top: 27px;
+    display: flex;
+    padding: 0px 50px;
+}
+
+.headSecondClass1 .listItemsClass{
+    display: flex;
+    width: 54%;
+}
+
+.headSecondClass1 .listItemsClass .item{
+    margin: 0px 40px;
+}
+
+.headSecondClass1 .itemHeading{
+    display: flex;
+    justify-content:center;
+    width: 511px;
+    height: 100px;
+    margin: 0px -218px;
+}
+
+.headSecondClass1 .itemHeading h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.headClassSecond{
+    display: flex;
+    margin-top: 20px;
+}
+.itemClass2{
+    padding: 0px 35px;
+}
+/* Last point */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container table{
+    border-collapse: collapse;
+}
+
+.container table tr{
+    font-size: 23px;
+    height: 50px;
+}
+
+.container tbody td{
+    border: 3px solid #d1bfbf;
+    width: 316px;
+    text-align: center;
+    font-size: 18px;
+    height: 55px;
+}
+
+hr{
+    width: 65%;
+    display: block;
+    margin: auto;
+}
+
+.container table th{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 3px solid #d1bfbf;
+}
+
+.container h1{
+    padding: 7px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
