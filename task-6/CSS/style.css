@@ -1,0 +1,88 @@
+body{
+    padding: 20px;
+    background-color: #d6f3ea;
+}
+.navClass{
+    margin: 2px;
+    width: 17px;
+    display: flex;
+    border: 2px solid black;
+}
+
+.navbar-images img{
+    height: 20px;
+    width: 20px;
+}
+.me-2{
+    width: 400px;
+    border-radius: 50px;
+}
+.d-flex input img{
+    height: 20px;
+    width: 20px;
+}
+.navbar .bg-light{
+    border: 2px solid red;
+}
+.primary-part-class{
+    /* border: 2px solid blue; */
+    display: flex !important;
+}
+.primary-part-class1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 100px;
+    height: 200px;
+}
+.primary-part-class1 img{
+    height: 20px;
+    width: 20px;
+}
+.primary-part-class2{
+    /* border: 2px solid green; */
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+    padding: 13px;
+    margin-top: 20px;
+}
+.primary-part-class2 .heading2{
+    position: absolute;
+    top: 105px;
+    right: 32px;
+}
+.card{
+    /* border: 3px solid green; */
+    width: 45%;
+    margin: 10px;
+    border-radius: 15px;
+}
+.headClass1{
+    margin-left: 10px;
+}
+.grenish{
+    background-color: #a5d8cb;
+}
+.purplelish{
+    background-color: #f1dbf1;
+}
+.bluish{
+    background-color: #d2d2f5;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+.main-card-class{
+    display: flex;
+}
+.main-card-class2{
+    display: flex;
+}
