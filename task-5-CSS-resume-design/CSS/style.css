@@ -27,10 +27,9 @@ ul li span a{
     margin: 20px 200px;
     margin-left:150px;
     border: 4px solid grey;
-    padding: 20px;
 }
 .item{
-    margin:0px 50px;
+    margin:0px 30px;
     color:grey;
     font-weight: 500;
     background-color: white;
@@ -52,6 +51,7 @@ ul li span a{
 .item .box {
     display: flex;
     flex-direction: row;
+    margin-left: -2px;
 }
 
 .item .project{
@@ -66,12 +66,13 @@ ul li span a{
 }
 
 .item .project p{
-    margin-left:3px
+    margin-left:3px;
+    /* border: 2px solid red; */
+    margin: 21px 5px;
 }
 
 .profile{
     background: #434246;
-    margin-top:20px;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -89,18 +90,13 @@ ul li span a{
 }
 
 .history{
-    background: #4f4e54;
-    margin-bottom: 20px;
-    padding-right: 26px;
+    background: rgb(79, 78, 84);
     padding-left: 11px;
-    padding-bottom: 10px;
     height:100%
 }
 .right-side{
-    min-width: 250px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     color: white;
     /* margin-bottom: -100px; */
 }
@@ -170,11 +166,14 @@ filter: invert(100%) sepia(2%) saturate(18%) hue-rotate(243deg) brightness(104%)
 }
 .exp .item#1{
     float: right;
-    margin-top:-39px 
+    margin-top:-45px 
 }
 .SecondaryItem{
     display: flex;
+    height: 47px;
+    margin-left: -2px;
 }
 .SecondaryItem h4{
-    margin-left: 533px;
+    margin-left: 543px;
+    font-weight: lighter;
 }
