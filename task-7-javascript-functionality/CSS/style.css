@@ -1,0 +1,44 @@
+.mainClass{
+    height: 270px;
+    padding: 18px;
+    background-color: #e8e8e8;
+}
+.box1 #enteraNumber{
+    width: 500px;
+    height: 20px;
+}
+.box2 #numberOFtimes{
+    width: 500px;
+    height: 20px;
+}
+
+.btn{
+    margin-top: 20px;
+    width: 5%;
+    font-size: 16px;
+    padding: 6px 10px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.BigBox {
+    display: flex;
+}
+.item {
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    height: 60px;
+}
+.newColor1 {
+    background-color: yellow;
+}
+.newColor2 {
+    background-color: purple;
+}
+.newColor3 {
+    background-color: blue;
+}
+.newColor4 {
+    background-color: green;
+}

@@ -1,0 +1,23 @@
+1. To insert values in customers table.
+ans :- insert into Customers values (6,'jayant','jain',23,'india')
+
+2. To insert multiple values in customers table.
+ans :- insert into Customers values (7,'himanshu','sharma','23','india'),
+(8,'yash','agarwal','22','india'),
+(9,'rishab','mandawariya','23','india'),
+(10,'kamlesh','gurjar','23','india');
+
+3. To get number of customers per country. 
+ans :- select country , count(customer_id) from Customers group by country ;
+
+4. To get the orders who have amount between 100 to 500.
+ans :- select * from Orders where amount > 100 and amount < 500;
+
+5. To get the first name and last name of customers who have bought Keypad.
+ans :- select first_name , last_name from Customers where customer_id in (select customer_id from Orders where item = 'Keyboard');
+
+6. To get the name of the countries where shipping status is Pending.
+ans :- select country from Customers where customer_id in (select customer from Shippings where status = 'Pending');
+
+7. To get the number of orders per customer.
+ans :- select customer_id , count(order_id) from Orders group by customer_id;
